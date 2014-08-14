@@ -30,10 +30,11 @@ $(document).ready(function() {
   });
 
 $(document).keydown(function(event) {
-	if ( event.which == 88)
+	if (event.which == 88){}
  	$('.ryu-ready').hide();
     $('.ryu-still').hide();
     $('.ryu-cool').show();
+}
  });
 
 $(document).keyup(function(event) {
