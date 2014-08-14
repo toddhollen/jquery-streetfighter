@@ -8,7 +8,7 @@ $(document).ready(function() {
  .mouseleave(function() {
     $('.ryu-ready').hide();
     $('.ryu-still').show();
-    $('.ryu-cool').hide();
+ 
   })
 
  .mousedown(function() { 
@@ -28,24 +28,21 @@ $(document).ready(function() {
 
  .mouseup(function() {
     $('.ryu-throwing').hide();
-     $('ryu-throwing').hide();
     $('.ryu-ready').show();
-    $('.ryu-cool').hide();
+
   });
 
 $(document).keydown(function(event) {
 	if (event.which == 88){
  	$('.ryu-ready').hide();
     $('.ryu-still').hide();
-    $('ryu-throwing').hide();
     $('.ryu-cool').show();
 }
  });
 
 $(document).keyup(function(event) {
-	if ( event.which == 88){
+	if (event.which == 88){
     $('.ryu-still').show();
-     $('ryu-throwing').hide();
     $('.ryu-cool').hide();
 }
  });
