@@ -67,7 +67,7 @@ body{
 aside{
 	position: absolute;
 	width: 600px;
-	top: 200px;
+	top: 170px;
 	left: 700px;
 }
 
@@ -77,13 +77,12 @@ h1, h2{
 }
 
 h1{
-	
-	font-size: 2em;
+	font-size: 4em;
 }
 
 h2{
 	
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 li{
